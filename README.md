@@ -43,3 +43,54 @@ Ensure you have the following installed on your local machine:
 
    ```bash
    git clone https://github.com/your-username/chat-app-vite.git
+   
+2.**Navigate into the project directory:**
+
+    ```bash
+    cd chat-app-vite
+
+
+3.**Install dependencies for both the frontend and backend:**
+
+     ```bash
+ # Frontend
+      cd frontend
+      npm install
+# Backend
+      cd ../backend
+    ```bash
+      npm install
+
+### ⚙️ Configuration
+
+--Create a .env file in the backend directory and add the following environment variables:
+
+env
+PORT=5000
+MONGO_URI=your_mongo_database_uri
+JWT_SECRET=your_jwt_secret_key
+
+### 🚀 Running the Application
+---Start the backend server:
+
+```bash
+cd backend
+npm run start
+
+
+---Start the frontend development server:
+
+```bash
+cd frontend
+npm run dev
+
+### 📸 Screenshots
+![image](https://github.com/user-attachments/assets/ac95ddc7-8263-4084-94d9-a8742177360e)
+
+![image](https://github.com/user-attachments/assets/1accb2d1-8d17-4d85-9122-7e5a28d73fe9)
+
+![image](https://github.com/user-attachments/assets/b4ddf758-a389-4923-bc7f-0766f88f8e8f)
+
+
+
+
