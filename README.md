@@ -25,7 +25,7 @@ Welcome to the **Real-Time Chat Application**! This project is built with **Vite
 - 🟢 **Node.js**: JavaScript runtime for building the backend.
 - 🚂 **Express.js**: Minimalist web framework for Node.js.
 - 🔗 **Socket.io**: For handling real-time events and communication.
-- 🗄 **MongoDB** (or any other DB): Database for storing user and chat data.
+- 🗄 **MongoDB** : Database for storing user and chat data.
 
 ## 🚦 Getting Started
 
@@ -35,7 +35,7 @@ Ensure you have the following installed on your local machine:
 
 - [Node.js](https://nodejs.org/)
 - [NPM](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
-- [MongoDB](https://www.mongodb.com/) (if using MongoDB for data storage)
+- [MongoDB](https://www.mongodb.com/)
 
 ### 📥 Installation
 
@@ -52,13 +52,11 @@ Ensure you have the following installed on your local machine:
 
 3.**Install dependencies for both the frontend and backend:**
 
-     ```bash
  # Frontend
       cd frontend
       npm install
 # Backend
       cd ../backend
-    ```bash
       npm install
 
 ### ⚙️ Configuration
